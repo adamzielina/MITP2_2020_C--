@@ -1,5 +1,4 @@
 #include <iostream>
-#include "zadanie.h"
 #include <string>
 using std::string;
 
