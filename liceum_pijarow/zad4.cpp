@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 using std::string;
-using std::cout; using std::endl;
 
 string  zad4 (string slowo){
 
@@ -16,12 +15,6 @@ string  zad4 (string slowo){
                 else{
                         wyn[j]= slowo[z];
                         wyn[j+1] = slowo [i];
-        cout <<j <<endl;
-        cout << slowo<<endl;
-        cout<<wyn<<endl;
-        cout <<i <<endl;
-        cout <<slowo[i] <<endl;
-
                         j+=2;
                         z++;
                 }
